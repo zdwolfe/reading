@@ -13,6 +13,9 @@ An overview of my web reading setup.
       substack --> nEmail[newsletter gmail];
       nEmail -- forwarding filter --> feedly;
       
+      medium -- sync bookmark --> iftttMedium[IFTTT Medium];
+      iftttMedium -- save for later --> feedly;
+      
       insta -- save for later --> iftttInsta[IFTTT Instapaper];
       iftttInsta -- sync saved --> feedly;
       
