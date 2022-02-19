@@ -10,11 +10,13 @@ An overview of my web reading setup.
       me -- read/write notes --> ever[evernote];
       me -- save links for later --> insta[instapaper];
       
+      medium -- publication newsletter --> nEmail;
       substack --> nEmail[newsletter gmail];
       nEmail -- forwarding filter --> feedly;
       
       medium -- sync bookmark --> iftttMedium[IFTTT Medium];
       iftttMedium -- save for later --> feedly;
+      
       
       insta -- save for later --> iftttInsta[IFTTT Instapaper];
       iftttInsta -- sync saved --> feedly;
